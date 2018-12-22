@@ -1,0 +1,29 @@
+
+
+# number of process, recommended to equal number of cpu cores, 0 means all available cpu cores
+threads: 0
+
+
+bulk:
+    interval: 5
+    count: 100
+
+
+mqtt:
+    host: 192.168.1.112
+    port: 1883
+    username: 123
+    clientId: 123
+    password: 123
+    ping_interval: 30
+    
+
+database:
+    engine: mysql
+    host: 127.0.0.1
+    port: 3306
+    username: root
+    password: 123456
+    name: hodhodim
+
+
