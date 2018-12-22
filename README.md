@@ -14,4 +14,5 @@ You should install oracle java 8 to run Silo and maven to compile it
 
 
 
-
+### Configuration ###
+to configure Silo, find silo.yaml in /opt/silo
