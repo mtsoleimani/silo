@@ -3,27 +3,31 @@
 # number of process, recommended to equal number of cpu cores, 0 means all available cpu cores
 threads: 0
 
-
+# Silo store all messages in bulk mode
+# interval in second means how many seconds it should wait to store messages in queue
+# count means on how many messages count, it should run archive messages phase
 bulk:
     interval: 5
-    count: 100
+    count: 1000
 
 
+# mqtt server information to connect
 mqtt:
-    host: 192.168.1.112
+    host: MQTT BROKER IP ADDRESS
     port: 1883
-    username: 123
-    clientId: 123
-    password: 123
+    username: MQTT USERNAME
+    clientId: MQTT CLIENT ID
+    password: MQTT PASSOWRD
     ping_interval: 30
     
 
+# engine can be mysql, postgres or monogdb
 database:
     engine: mysql
     host: 127.0.0.1
     port: 3306
-    username: root
-    password: 123456
-    name: hodhodim
+    username: DATABASE USERNAME
+    password: DATABASE PASSWORD
+    name: DATABASE NAME
 
 
