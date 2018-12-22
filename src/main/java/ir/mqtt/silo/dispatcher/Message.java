@@ -17,7 +17,6 @@ public class Message {
 
 	public MqttMessage message;
 
-
 	public long receivedAt = System.currentTimeMillis();
 
 }
