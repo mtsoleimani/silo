@@ -1,5 +1,5 @@
 # Silo
-Silo is an open source tools to archive mqtt messages. It supports MySQL, Postgres and Mongodb. Silo is compatible with emqtt and verneMQ.
+Silo is an open source tool to archive MQTT messages. It supports MySQL, Postgres and Mongodb. Silo is compatible with emqtt and verneMQ.
 
 
 To install Silo follow the instructions
