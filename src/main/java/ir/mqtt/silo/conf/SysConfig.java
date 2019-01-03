@@ -1,3 +1,13 @@
+/*
+ *  Copyright 2018 Mohammad Taqi Soleimani
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ */
+
 package ir.mqtt.silo.conf;
 
 import java.io.File;
@@ -57,7 +67,7 @@ public class SysConfig {
 			}
 			
 			Map<String, Object> mqtt = (Map<String, Object>) parser.get(Constants.MQTT);
-			if(bulk != null) {
+			if(mqtt != null) {
 				mqttHost = mqtt.get(Constants.HOST).toString();;
 				mqttUsername = mqtt.get(Constants.USERNAME).toString();
 				mqttClientId = mqtt.get(Constants.CLIENT_ID).toString();
