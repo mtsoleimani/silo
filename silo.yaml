@@ -19,9 +19,13 @@ mqtt:
     clientId: MQTT CLIENT ID
     password: MQTT PASSOWRD
     ping_interval: 30
-    
+    topics:
+        - "#"
+        - test1
+        - test2
+        
 
-# engine can be mysql, postgres or monogdb
+# engine can be mysql, postgres or monogdb, cassandra
 database:
     engine: mysql
     host: 127.0.0.1
